@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  position: relative; }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem; }
+
+header > img {
+  width: 30%;
+  margin-left: 0.9rem; }
+
+header > div:nth-of-type(1) {
+  font-size: 1.8rem;
+  margin-top: 1rem; }
+
+header > div:nth-of-type(2) {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-right: 0.7rem;
+  margin-top: 0.5rem; }
+
+.icon-nav {
+  font-size: 1.65rem;
+  color: #999999; }
+
+.image > img {
+  width: 100%; }
+
+.list {
+  width: 90%;
+  height: 2rem;
+  margin: 1.0rem 5% 1.8rem;
+  background: #F4F4F4;
+  color: #000;
+  font-size: 1.2rem;
+  padding-left: 0.5rem;
+  border-radius: 0.05rem; }
+
+.center {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #000; }
+
+.font {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  color: #999;
+  justify-content: space-around; }
+
+.num {
+  width: 100%;
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: space-around;
+  color: #666; }
+  .num div {
+    font-size: 1rem;
+    padding: 0.2rem;
+    border: 1px solid #eaeaea;
+    border-radius: 0.5rem; }
+
+.num_l {
+  width: 100%;
+  margin-top: 0.9rem;
+  display: flex;
+  color: #666;
+  margin-bottom: 1.8rem; }
+  .num_l div {
+    font-size: 1rem;
+    padding: 0.2rem;
+    border: 1px solid #eaeaea;
+    border-radius: 0.5rem; }
+  .num_l div:nth-of-type(2) {
+    margin-left: 0.6rem; }
+
+.nav {
+  margin-bottom: 1.5rem;
+  text-indent: 2em;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: #666; }
+
+.img {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 2.5rem; }
+  .img img {
+    width: 100%; }
+
+.a_list {
+  width: 80%;
+  height: 3.5rem;
+  border: 2px solid #2BB2B0;
+  border-radius: 0.5rem;
+  color: #2BB2B0;
+  text-align: center;
+  line-height: 3.5rem;
+  font-size: 1.4rem;
+  margin-left: 10%;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.odiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 3.0rem; }
+  .odiv div:nth-of-type(1) {
+    color: #1D9BF7;
+    margin: 1.8rem 0rem;
+    position: relative;
+    text-align: center; }
+    .odiv div:nth-of-type(1) span:nth-of-type(2) {
+      font-size: 1.2rem;
+      position: absolute;
+      top: 5rem;
+      left: -0.1rem; }
+  .odiv div:nth-of-type(2) {
+    color: #FEB605;
+    margin: 1.8rem 0rem;
+    position: relative;
+    text-align: center; }
+    .odiv div:nth-of-type(2) span:nth-of-type(2) {
+      font-size: 1.2rem;
+      position: absolute;
+      top: 5rem;
+      left: 0rem; }
+
+.icon-pencle {
+  font-size: 2.9rem;
+  color: #1D9BF7;
+  padding: 1rem;
+  border: 0.15rem solid #1D9BF7;
+  border-radius: 50%; }
+
+.icon-share {
+  font-size: 2.9rem;
+  color: #FEB605;
+  padding: 1rem;
+  border: 0.15rem solid #FEB605;
+  border-radius: 50%; }
+
+hr {
+  width: 100%;
+  height: 0.9rem;
+  background: #F4F4F4;
+  border: none; }
+
+.div2 {
+  margin: 1.6rem 0rem; }
+
+.div2 > span:nth-of-type(1) {
+  font-size: 1.6rem;
+  color: #000;
+  border-left: 0.25rem solid #45CC9A;
+  margin-left: 0.8rem;
+  padding-left: 0.4rem; }
+
+.div8 {
+  width: 100%; }
+
+.div8 > ul > li:nth-of-type(1) > img {
+  width: 9.5rem;
+  height: 7.25rem;
+  margin-left: 0.8rem; }
+
+.div8 > ul {
+  display: flex; }
+
+.div8 > ul > li:nth-of-type(2) > p:nth-of-type(1) {
+  font-size: 1.0rem;
+  margin-left: 1.1rem;
+  color: #000; }
+
+.div8 > ul > li:nth-of-type(2) > p:nth-of-type(2) {
+  margin-left: 0.9rem;
+  margin-top: 4.4rem;
+  display: flex;
+  font-size: 1.4rem;
+  color: #999; }
+
+.icon-time, .icon-view {
+  font-size: 0.7rem; }
+
+.div8 > ul > li:nth-of-type(2) > p:nth-of-type(2) > span:nth-of-type(2) {
+  margin-left: 2rem; }
+
+.div8 > ul {
+  padding-bottom: 3.1rem; }
+
+.div8 > ul:nth-of-type(10) {
+  padding-bottom: 0rem; }
+
+.div9 {
+  width: 100%;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  font-size: 1.4rem;
+  color: #333;
+  text-indent: 2em; }
+
+.lianxi {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .lianxi .server {
+    display: flex;
+    margin-top: 3rem; }
+    .lianxi .server p {
+      font-size: 1.8rem;
+      color: #39C893; }
+    .lianxi .server span {
+      margin-left: 1rem;
+      margin-top: 0.5rem; }
+  .lianxi .icon-top {
+    font-size: 2rem;
+    padding: 0.27rem;
+    border: 0.1rem solid #dedede;
+    border-radius: 1.8rem;
+    position: absolute;
+    left: 90%;
+    color: #9c9c9c; }
+
+.chuping {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.4rem; }
+  .chuping span:nth-child(1) {
+    color: #3ACA92; }
+
+footer {
+  margin-bottom: 13rem; }
+
+footer > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 5.3rem;
+  background: #333; }
+
+footer > div > img:nth-of-type(1) {
+  width: 2rem;
+  height: 2rem; }
+
+footer > div > img:nth-of-type(2) {
+  width: 40%; }
+
+footer > div > div {
+  width: 8.75rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 1rem;
+  background: #feb605;
+  border: 1px solid #feb605;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  margin-right: 0.5rem; }
+
+footer > img {
+  width: 100%; }
+
+.new {
+  width: 90%;
+  margin-left: 5%;
+  height: 28rem;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 25%; }
+  .new div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.0rem; }
+    .new div img {
+      width: 6.75rem;
+      height: 6.75rem;
+      margin-bottom: 1.25rem; }
+  .new ul {
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    display: flex;
+    justify-content: space-around; }
+  .new button {
+    width: 80%;
+    height: 4.0rem;
+    margin: 3rem 10% 1.7rem;
+    background: white;
+    font-size: 2.0rem;
+    text-align: center;
+    line-height: 4.0rem;
+    border: none; }
+
+/*# sourceMappingURL=index7.css.map */

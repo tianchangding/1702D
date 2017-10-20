@@ -1,0 +1,366 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.08rem;
+  margin-bottom: 0.08rem; }
+
+header > img {
+  width: 30%;
+  margin-left: 0.09rem; }
+
+header > div:nth-of-type(1) {
+  font-size: 0.18rem;
+  margin-top: 0.3rem; }
+
+header > div:nth-of-type(2) {
+  display: flex;
+  font-size: 0.11rem;
+  text-align: center;
+  color: #999;
+  margin-right: 0.09rem;
+  margin-top: 0.3rem; }
+
+.icon-user {
+  font-size: 0.23rem;
+  color: #999999; }
+
+.icon-nav {
+  font-size: 0.17rem;
+  color: #999999; }
+
+header > div:nth-of-type(2) > div:nth-of-type(1) {
+  margin-right: 0.09rem; }
+
+header > div:nth-of-type(2) > div:nth-of-type(2) > p {
+  margin-top: 0.07rem; }
+
+.aDiv {
+  width: 100%; }
+
+.aDiv > img {
+  width: 100%; }
+
+.font {
+  width: 100%;
+  margin-top: 0.18rem;
+  text-align: center;
+  font-size: 0.18rem;
+  margin-bottom: 0.12rem; }
+
+.image {
+  width: 100%;
+  border-top: 1px solid #d7d7d7;
+  position: relative;
+  margin-bottom: 0.18rem; }
+  .image img {
+    position: absolute;
+    left: 41%;
+    top: -0.09rem; }
+
+.int {
+  width: 100%; }
+  .int input {
+    width: 80%;
+    margin-left: 10%;
+    height: 0.18rem;
+    color: #E0E0E0;
+    font-size: 0.14rem;
+    line-height: 0.18rem;
+    margin-top: -0.2rem; }
+
+.int > button {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0.18rem;
+  margin-bottom: 0.18rem;
+  color: white;
+  background: #FEB605;
+  text-align: center;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  font-size: 0.12rem;
+  border: none; }
+
+.price {
+  width: 99%;
+  height: 1.3rem;
+  border: 1px dashed #1D9BF7;
+  margin-bottom: 0.1rem; }
+
+.price > div:nth-of-type(1) {
+  font-size: 0.18rem;
+  text-align: center;
+  margin-top: -0.15rem; }
+
+.price > div:nth-of-type(2) {
+  margin-top: 0.1rem;
+  text-indent: 2em;
+  color: #C3C3C3;
+  font-size: 0.14rem; }
+  .price > div:nth-of-type(2) span {
+    color: #99E3C8; }
+
+.view {
+  width: 100%;
+  margin-bottom: 0.2rem; }
+  .view ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+    .view ul li {
+      width: 30%;
+      border: 1px solid #7EDCB9; }
+      .view ul li img {
+        width: 0.5rem;
+        height: 0.5rem;
+        margin-top: 0.18rem; }
+      .view ul li p:nth-of-type(1) {
+        font-size: 0.14rem;
+        margin-top: 0.1rem; }
+      .view ul li p:nth-of-type(2) {
+        font-size: 0.1rem;
+        margin-top: 0.1rem;
+        color: #666; }
+
+.list {
+  width: 100%;
+  margin-bottom: 0.2rem; }
+  .list ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+    .list ul li img {
+      width: 0.50rem;
+      height: 0.50rem;
+      margin-top: 0.18rem; }
+    .list ul li p:nth-of-type(1) {
+      font-size: 0.12rem;
+      margin-top: 0.1rem; }
+
+.home {
+  width: 100%;
+  height: 0.3rem;
+  background: #F4F4F4; }
+  .home img {
+    width: 100%;
+    margin-top: 0.1rem; }
+
+.one {
+  width: 100%;
+  margin-top: 0.18rem;
+  background-color: #EAEAEA;
+  position: relative; }
+  .one .two {
+    width: 0.06rem;
+    height: 100%;
+    background-color: #39C894;
+    position: absolute;
+    left: 1.845rem; }
+  .one .three {
+    width: 100%;
+    position: relative; }
+    .one .three img {
+      padding-top: 0.2rem;
+      width: 100%; }
+  .one .fore {
+    position: relative;
+    width: 2.25rem;
+    height: 0.45rem;
+    margin-left: 0.75rem;
+    margin-top: 0.1rem;
+    background: url(../设计图/切图/loans/loans2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white; }
+    .one .fore h1 {
+      font-size: 0.18rem; }
+    .one .fore p {
+      font-size: 0.12rem; }
+    .one .fore h2 {
+      font-size: 0.16rem;
+      line-height: 0.45rem; }
+  .one .five {
+    width: 100%;
+    display: flex;
+    margin-top: 0.1rem; }
+    .one .five .xu {
+      width: 1.775rem;
+      margin-left: 0.1rem; }
+      .one .five .xu ul {
+        width: 90%; }
+        .one .five .xu ul li {
+          font-size: 0.14rem;
+          color: #999999; }
+          .one .five .xu ul li img {
+            width: 100%; }
+          .one .five .xu ul li p span {
+            color: #39C894; }
+          .one .five .xu ul li h1 {
+            font-size: 0.3rem;
+            color: #000000; }
+      .one .five .xu ul li:nth-child(2) {
+        margin-left: 26%; }
+      .one .five .xu ul li:nth-child(3) {
+        margin-left: 47%; }
+      .one .five .xu ul li:nth-child(4) {
+        margin-left: 38%; }
+    .one .five .sex {
+      width: 1.775rem;
+      margin-left: 0.09rem;
+      margin-top: 0.08rem; }
+      .one .five .sex ul {
+        width: 95%;
+        display: flex; }
+        .one .five .sex ul li {
+          font-size: 0.14rem; }
+          .one .five .sex ul li div {
+            width: 0.4rem;
+            height: 0.4rem;
+            border: 2px dotted #39C894;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 0.4rem;
+            color: #39C894; }
+            .one .five .sex ul li div .iconfont {
+              font-size: 0.3rem; }
+          .one .five .sex ul li h1 {
+            color: #000000;
+            font-size: 0.16rem; }
+          .one .five .sex ul li span {
+            color: #39C894; }
+          .one .five .sex ul li b {
+            font-size: 0.18rem; }
+      .one .five .sex ul li:nth-child(2) {
+        margin-left: 0.03rem; }
+    .one .five .shu {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 0.1rem;
+      margin-left: 0.3rem; }
+      .one .five .shu ul {
+        width: 95%;
+        display: flex;
+        margin-top: 0.1rem; }
+        .one .five .shu ul li {
+          font-size: 0.14rem; }
+          .one .five .shu ul li div {
+            width: 0.4rem;
+            height: 0.4rem;
+            border: 2px dotted #39C894;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 0.4rem;
+            color: #39C894;
+            font-size: 0.2rem;
+            margin-left: 0.1rem; }
+          .one .five .shu ul li h1, .one .five .shu ul li p {
+            margin-left: 0.08rem; }
+          .one .five .shu ul li h1 {
+            color: #39C894; }
+          .one .five .shu ul li p {
+            color: #999999; }
+    .one .five .dai {
+      width: 1.775rem;
+      margin-top: 0.08rem;
+      margin-left: -0.2rem; }
+      .one .five .dai ul {
+        width: 95%;
+        margin-top: 0.3rem; }
+        .one .five .dai ul li {
+          font-size: 0.14rem;
+          display: flex; }
+          .one .five .dai ul li div {
+            width: 0.4rem;
+            height: 0.4rem;
+            border: 2px dotted #39C894;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 0.4rem;
+            color: #39C894;
+            margin-left: -0.3rem; }
+            .one .five .dai ul li div .iconfont {
+              font-size: 0.3rem; }
+          .one .five .dai ul li h1 {
+            color: #000000;
+            margin-top: 0.1rem;
+            font-size: 0.16rem; }
+
+.hr {
+  width: 100%;
+  height: 0.09rem;
+  background: #F4F4F4;
+  border: none; }
+
+.div9 {
+  width: 100%;
+  margin-top: 0.18rem;
+  margin-bottom: 0.18rem;
+  font-size: 0.14rem;
+  color: #333;
+  text-indent: 2em; }
+
+.lianxi {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .lianxi .server {
+    display: flex;
+    margin-top: 0.3rem; }
+    .lianxi .server p {
+      font-size: 0.18rem;
+      color: #39C893; }
+    .lianxi .server span {
+      margin-left: 0.1rem;
+      font-size: 0.12rem; }
+  .lianxi .icon-top {
+    font-size: 0.2rem;
+    padding: 0.027rem;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    position: absolute;
+    left: 90%;
+    color: #9c9c9c; }
+
+.chuping {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.14rem;
+  font-size: 0.14rem; }
+  .chuping span:nth-child(1) {
+    color: #3ACA92;
+    font-size: 0.12rem; }
+
+footer {
+  margin-bottom: 0.10rem; }
+
+footer > div {
+  width: 100%;
+  height: 0.5rem;
+  background: white;
+  text-align: center;
+  line-height: 0.5rem;
+  color: #EEEEEE;
+  font-size: 0.14rem; }
+
+footer > img {
+  width: 100%; }
+
+/*# sourceMappingURL=index17.css.map */
